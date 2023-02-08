@@ -41,3 +41,4 @@ ansible_pull_systemd_type: "oneshot"
 ansible_pull_systemd_execstart: "/bin/bash -c '/usr/local/bin/ansible-pull-script.sh -n >/var/log/ansible.boot.log 2>&1'"
 # example value where the logs are in systemd's journal instead of a file
 #ansible_pull_systemd_execstart: "/usr/local/bin/ansible-pull-script.sh -n"
+ansible_pull_repo: "github.com/fgci-org/fgci-ansible.git"
